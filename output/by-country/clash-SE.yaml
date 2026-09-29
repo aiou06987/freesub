@@ -27,7 +27,32 @@ proxies:
   grpc-opts:
     grpc-service-name: grpce5bb9e71
 - name: 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  server: 51.20.96.231
+  server: sw-01.vacvps.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: 84a3061b-3573-4a3c-a631-f26c31209268
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: bDAry75taTMaPJII9vRrJuXAjQglTJxCOVWraQ5BozY
+  servername: sw-01.vacvps.com
+  client-fingerprint: firefox
+- name: 🇸🇪 瑞典 (Sweden) 04 - xiaohe
+  server: surstreming.vvzzkontaktezzvv.garden
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: x6p656szvu_3CKLsJ4NtkooRvdTVGx7IoPca_p58_jA
+    short-id: fb442438e2223836
+  servername: surstreming.vvzzkontaktezzvv.garden
+  client-fingerprint: chrome
+- name: 🇸🇪 瑞典 (Sweden) 05 - xiaohe
+  server: 51.20.72.15
   port: 443
   udp: true
   type: ss
@@ -41,6 +66,8 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 02 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 04 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -49,5 +76,7 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 02 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 04 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 05 - xiaohe
 rules:
 - MATCH,PROXIES
