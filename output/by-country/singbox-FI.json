@@ -4,28 +4,21 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇫🇮 芬兰 (Finland) 01 - xiaohe",
-      "server": "144.31.34.146",
-      "server_port": 2096,
-      "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
+      "server": "46.62.204.134",
+      "server_port": 443,
+      "password": "humanity",
       "tls": {
         "enabled": true,
-        "server_name": "fi1.merky.one",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "server_name": "www.pleadcourt.org",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/mky-ws-4f19c8a7",
+        "path": "/assignment",
         "headers": {
-          "Host": "fi1.merky.one"
+          "Host": "www.pleadcourt.org"
         }
       }
     },
