@@ -58,17 +58,18 @@ proxies:
   servername: du-rov.secureservice.top
   client-fingerprint: random
 - name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  server: tfhx4tjzmy39benjh0hg.sellerape.cc
+  server: xsru1.ddnsfree.com
   port: 443
   udp: true
   type: vless
-  uuid: 03929684-0dcf-4add-bb02-2b2ba09d10a2
-  flow: xtls-rprx-vision
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   tls: true
-  reality-opts:
-    public-key: Kamryj_IUYECmozGabqUqauA0k0QpVUEPSBSEKi-ED0
-  servername: tfhx4tjzmy39benjh0hg.sellerape.cc
-  client-fingerprint: firefox
+  servername: xsru1.ddnsfree.com
+  skip-cert-verify: false
+  client-fingerprint: random
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-ru
 proxy-groups:
 - name: PROXIES
   type: select

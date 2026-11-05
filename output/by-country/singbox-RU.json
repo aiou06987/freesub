@@ -95,22 +95,21 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-      "server": "tfhx4tjzmy39benjh0hg.sellerape.cc",
+      "server": "xsru1.ddnsfree.com",
       "server_port": 443,
-      "uuid": "03929684-0dcf-4add-bb02-2b2ba09d10a2",
-      "flow": "xtls-rprx-vision",
+      "uuid": "c90395e6-2140-47ad-a54d-9b166729d3ef",
       "tls": {
         "enabled": true,
-        "server_name": "tfhx4tjzmy39benjh0hg.sellerape.cc",
+        "server_name": "xsru1.ddnsfree.com",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Kamryj_IUYECmozGabqUqauA0k0QpVUEPSBSEKi-ED0",
-          "short_id": ""
+          "fingerprint": "random"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-ru"
       }
     },
     {
