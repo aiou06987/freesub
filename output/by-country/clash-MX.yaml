@@ -19,14 +19,6 @@ proxies:
   password: 5t6i121em5lkmsmk
   sni: mx001.zestapp778.com
   skip-cert-verify: true
-- name: 🇲🇽 墨西哥 (Mexico) 03 - xiaohe
-  server: 149.104.87.125
-  port: 15083
-  udp: true
-  type: trojan
-  password: 5t6i121em5lkmsmk
-  sni: mx001.zestapp778.com
-  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
@@ -34,7 +26,6 @@ proxy-groups:
   - AUTO
   - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
   - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -42,6 +33,5 @@ proxy-groups:
   proxies:
   - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
   - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 03 - xiaohe
 rules:
 - MATCH,PROXIES
