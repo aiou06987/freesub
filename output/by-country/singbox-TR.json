@@ -36,11 +36,7 @@
       "tls": {
         "enabled": true,
         "server_name": "hk.catxstar.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": false
       }
     },
     {
@@ -54,7 +50,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
